@@ -122,3 +122,5 @@ app/
 - Chat is used for communication
 - Data is stored in Firestore
 - Media is stored in Cloudinary
+## 👨‍💻 Author
+**Shaik Ibrahim**

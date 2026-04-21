@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Primary Green Colors -->
+    <color name="green_50">#ecfdf5</color>
+    <color name="green_100">#d1fae5</color>
+    <color name="green_200">#a7f3d0</color>
+    <color name="green_300">#6ee7b7</color>
+    <color name="green_400">#34d399</color>
+    <color name="green_500">#10b981</color>
+    <color name="green_600">#059669</color>
+    <color name="green_700">#047857</color>
+    <color name="green_800">#065f46</color>
+    <color name="green_900">#064e3b</color>
+
+    <!-- Your major green color -->
+    <color name="major_green">#00a63e</color>
+
+    <!-- Gray Colors -->
+    <color name="gray_50">#f9fafb</color>
+    <color name="gray_100">#f3f4f6</color>
+    <color name="gray_200">#e5e7eb</color>
+    <color name="gray_300">#d1d5db</color>
+    <color name="gray_400">#9ca3af</color>
+    <color name="gray_500">#6b7280</color>
+    <color name="gray_600">#4b5563</color>
+    <color name="gray_700">#374151</color>
+    <color name="gray_800">#1f2937</color>
+    <color name="gray_900">#111827</color>
+
+    <!-- Other Colors -->
+    <color name="orange_500">#f97316</color>
+    <color name="red_500">#ef4444</color>
+    <color name="blue_500">#3b82f6</color>
+    <color name="yellow_500">#eab308</color>
+    <color name="pink_500">#ec4899</color>
+    <color name="purple_500">#8b5cf6</color>
+    <color name="cyan_500">#06b6d4</color>
+
+    <!-- Theme Colors -->
+    <color name="primary">@color/green_600</color>
+    <color name="primary_dark">@color/green_700</color>
+    <color name="primary_light">@color/green_500</color>
+    <color name="background">@color/gray_50</color>
+    <color name="surface">@color/white</color>
+    <color name="on_primary">@color/white</color>
+    <color name="on_background">@color/gray_800</color>
+    <color name="on_surface">@color/gray_800</color>
+</resources>

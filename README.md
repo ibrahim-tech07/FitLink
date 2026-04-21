@@ -64,43 +64,61 @@ FitLink is an Android application developed using **Kotlin** and **Jetpack Compo
 git clone https://github.com/your-org/fitlink-android.git
 cd fitlink-android
 ```
-Step 2: Open in Android Studio
-Open Android Studio
-Click Open Project
-Select the FitLink folder
-Step 3: Setup Firebase
-Go to Firebase Console
-Create a new project
-Add Android app (use package name)
-Download google-services.json
-Place it inside:
+## 🚀 Setup and Run
+
+### Step 2: Open in Android Studio
+- Open Android Studio
+- Click Open Project
+- Select the FitLink folder
+
+### Step 3: Setup Firebase
+- Go to Firebase Console
+- Create a new project
+- Add Android app (use package name)
+- Download google-services.json
+- Place it inside:
+```bash
 app/
-Step 4: Sync Project
-Click Sync Now in Android Studio
-Step 5: Run the App
-Connect Android device OR use emulator
-Click Run ▶️
-🧪 How to Test the App
-Test Authentication
-Sign up with email and password
-Login and verify access
-Test Workout Feature
-Trainer assigns workout
-User views and marks it complete
-Test Chat
-Send messages between user and trainer
-Check real-time updates
-Test Notifications
-Trigger notification (new workout or message)
-Verify push notification received
-Test Media
-Upload workout video/image
-Check if it displays correctly
-📱 How It Works (Simple Flow)
-User logs in using Firebase Authentication
-Trainer assigns workouts with videos
-User completes workouts and tracks progress
-Calories are calculated using a simple formula
-Chat is used for communication
-Data is stored in Firestore
-Media is stored in Cloudinary
+```
+
+### Step 4: Sync Project
+- Click Sync Now in Android Studio
+
+### Step 5: Run the App
+- Connect Android device OR use emulator
+- Click Run ▶️
+
+---
+
+## 🧪 How to Test the App
+
+### Test Authentication
+- Sign up with email and password
+- Login and verify access
+
+### Test Workout Feature
+- Trainer assigns workout
+- User views and marks it complete
+
+### Test Chat
+- Send messages between user and trainer
+- Check real-time updates
+
+### Test Notifications
+- Trigger notification (new workout or message)
+- Verify push notification received
+
+### Test Media
+- Upload workout video/image
+- Check if it displays correctly
+
+---
+
+## 📱 How It Works (Simple Flow)
+- User logs in using Firebase Authentication
+- Trainer assigns workouts with videos
+- User completes workouts and tracks progress
+- Calories are calculated using a simple formula
+- Chat is used for communication
+- Data is stored in Firestore
+- Media is stored in Cloudinary
